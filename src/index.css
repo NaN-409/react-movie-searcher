@@ -1,0 +1,20 @@
+.header-nav {
+  padding: 5px 20px;
+}
+
+.content {
+  min-height: calc(100vh - 70px - 64px);
+}
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.search-btn{
+  position: absolute;
+  top: 20%;
+  right: 15%;
+}
+label:not(:last-child) {
+  margin-right: 1rem;
+}
